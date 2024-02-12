@@ -1,0 +1,95 @@
+node_modules/
+
+apps/web/node_modules/
+apps/native/node_modules/
+
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# NativeScript
+apps/native/hooks/
+apps/native/platforms/
+
+# Angular
+/dist/
+/bazel-out
+/integration/bazel/bazel-*
+*.log
+
+month.txt
+pubspec.lock
+.c8
+.idea/
+.devcontainer/*
+!.devcontainer/README.md
+!.devcontainer/recommended-devcontainer.json
+!.devcontainer/recommended-Dockerfile
+.settings/
+.vscode/launch.json
+.vscode/settings.json
+.vscode/tasks.json
+*.swo
+*.swp
+modules/.settings
+modules/.vscode
+.vimrc
+.nvimrc
+
+# Don't check in secret files
+*secret.js
+
+# build-analytics
+.build-analytics
+
+# rollup-test output
+/modules/rollup-test/dist/
+
+# User specific bazel settings
+.bazelrc.user
+
+# User specific ng-dev settings
+.ng-dev.user*
+
+.notes.md
+baseline.json
+
+# Ignore .history for the xyz.local-history VSCode extension
+.history
+
+# Husky
+.husky/_
+aio/content/examples/.DS_Store
+
+
+# Ignore cache created with the Angular CLI.
+.angular/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+.idea
+.cloud
+.project
+tmp/
+typings/
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+
+!.vscode/extensions.json
