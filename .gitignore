@@ -1,7 +1,4 @@
-node_modules/
-
-apps/web/node_modules/
-apps/native/node_modules/
+**/node_modules/
 
 .yarn/*
 !.yarn/patches
@@ -11,8 +8,9 @@ apps/native/node_modules/
 !.yarn/versions
 
 # NativeScript
-apps/native/hooks/
-apps/native/platforms/
+/apps/native/hooks
+/apps/native/platforms
+/apps/native/App_Resources
 
 # Angular
 /dist/
@@ -29,9 +27,9 @@ pubspec.lock
 !.devcontainer/recommended-devcontainer.json
 !.devcontainer/recommended-Dockerfile
 .settings/
-.vscode/launch.json
-.vscode/settings.json
-.vscode/tasks.json
+/apps/native/.vscode/launch.json
+/apps/native/.vscode/settings.json
+/apps/native/.vscode/tasks.json
 *.swo
 *.swp
 modules/.settings
@@ -66,7 +64,7 @@ aio/content/examples/.DS_Store
 
 
 # Ignore cache created with the Angular CLI.
-.angular/
+/apps/web/.angular/
 
 # Logs
 logs

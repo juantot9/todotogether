@@ -1,0 +1,32 @@
+{
+  "name": "native",
+  "main": "./src/main.ts",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^17.0.0",
+    "@angular/common": "^17.0.0",
+    "@angular/compiler": "^17.0.0",
+    "@angular/core": "^17.0.0",
+    "@angular/forms": "^17.0.0",
+    "@angular/platform-browser": "^17.0.0",
+    "@angular/platform-browser-dynamic": "^17.0.0",
+    "@angular/router": "^17.0.0",
+    "@nativescript/angular": "^17.0.0",
+    "@nativescript/core": "~8.5.0",
+    "@nativescript/preview-cli": "^1.0.12",
+    "@nativescript/theme": "~3.0.2",
+    "app": "*",
+    "rxjs": "~7.8.0",
+    "zone.js": "~0.13.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~17.0.0",
+    "@angular/compiler-cli": "~17.0.0",
+    "@nativescript/preview-cli": "^1.0.12",
+    "@nativescript/types": "~8.6.0",
+    "@nativescript/webpack": "~5.0.0",
+    "@ngtools/webpack": "~17.0.0",
+    "typescript": "~5.2.2"
+  }
+}
